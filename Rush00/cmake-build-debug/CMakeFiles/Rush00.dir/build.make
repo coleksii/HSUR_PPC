@@ -153,12 +153,62 @@ CMakeFiles/Rush00.dir/Spaceship.cpp.o.provides: CMakeFiles/Rush00.dir/Spaceship.
 CMakeFiles/Rush00.dir/Spaceship.cpp.o.provides.build: CMakeFiles/Rush00.dir/Spaceship.cpp.o
 
 
+CMakeFiles/Rush00.dir/Bullet.cpp.o: CMakeFiles/Rush00.dir/flags.make
+CMakeFiles/Rush00.dir/Bullet.cpp.o: ../Bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Rush00.dir/Bullet.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rush00.dir/Bullet.cpp.o -c /nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.cpp
+
+CMakeFiles/Rush00.dir/Bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rush00.dir/Bullet.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.cpp > CMakeFiles/Rush00.dir/Bullet.cpp.i
+
+CMakeFiles/Rush00.dir/Bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rush00.dir/Bullet.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.cpp -o CMakeFiles/Rush00.dir/Bullet.cpp.s
+
+CMakeFiles/Rush00.dir/Bullet.cpp.o.requires:
+
+.PHONY : CMakeFiles/Rush00.dir/Bullet.cpp.o.requires
+
+CMakeFiles/Rush00.dir/Bullet.cpp.o.provides: CMakeFiles/Rush00.dir/Bullet.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Bullet.cpp.o.provides.build
+.PHONY : CMakeFiles/Rush00.dir/Bullet.cpp.o.provides
+
+CMakeFiles/Rush00.dir/Bullet.cpp.o.provides.build: CMakeFiles/Rush00.dir/Bullet.cpp.o
+
+
+CMakeFiles/Rush00.dir/Contorls.cpp.o: CMakeFiles/Rush00.dir/flags.make
+CMakeFiles/Rush00.dir/Contorls.cpp.o: ../Contorls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Rush00.dir/Contorls.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rush00.dir/Contorls.cpp.o -c /nfs/2016/a/akrotov/CLionProjects/Rush00/Contorls.cpp
+
+CMakeFiles/Rush00.dir/Contorls.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rush00.dir/Contorls.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/a/akrotov/CLionProjects/Rush00/Contorls.cpp > CMakeFiles/Rush00.dir/Contorls.cpp.i
+
+CMakeFiles/Rush00.dir/Contorls.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rush00.dir/Contorls.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/a/akrotov/CLionProjects/Rush00/Contorls.cpp -o CMakeFiles/Rush00.dir/Contorls.cpp.s
+
+CMakeFiles/Rush00.dir/Contorls.cpp.o.requires:
+
+.PHONY : CMakeFiles/Rush00.dir/Contorls.cpp.o.requires
+
+CMakeFiles/Rush00.dir/Contorls.cpp.o.provides: CMakeFiles/Rush00.dir/Contorls.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Contorls.cpp.o.provides.build
+.PHONY : CMakeFiles/Rush00.dir/Contorls.cpp.o.provides
+
+CMakeFiles/Rush00.dir/Contorls.cpp.o.provides.build: CMakeFiles/Rush00.dir/Contorls.cpp.o
+
+
 # Object files for target Rush00
 Rush00_OBJECTS = \
 "CMakeFiles/Rush00.dir/main.cpp.o" \
 "CMakeFiles/Rush00.dir/NLO.cpp.o" \
 "CMakeFiles/Rush00.dir/Window.cpp.o" \
-"CMakeFiles/Rush00.dir/Spaceship.cpp.o"
+"CMakeFiles/Rush00.dir/Spaceship.cpp.o" \
+"CMakeFiles/Rush00.dir/Bullet.cpp.o" \
+"CMakeFiles/Rush00.dir/Contorls.cpp.o"
 
 # External object files for target Rush00
 Rush00_EXTERNAL_OBJECTS =
@@ -167,11 +217,13 @@ Rush00: CMakeFiles/Rush00.dir/main.cpp.o
 Rush00: CMakeFiles/Rush00.dir/NLO.cpp.o
 Rush00: CMakeFiles/Rush00.dir/Window.cpp.o
 Rush00: CMakeFiles/Rush00.dir/Spaceship.cpp.o
+Rush00: CMakeFiles/Rush00.dir/Bullet.cpp.o
+Rush00: CMakeFiles/Rush00.dir/Contorls.cpp.o
 Rush00: CMakeFiles/Rush00.dir/build.make
 Rush00: /usr/lib/libcurses.dylib
 Rush00: /usr/lib/libform.dylib
 Rush00: CMakeFiles/Rush00.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Rush00"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Rush00"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rush00.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +235,8 @@ CMakeFiles/Rush00.dir/requires: CMakeFiles/Rush00.dir/main.cpp.o.requires
 CMakeFiles/Rush00.dir/requires: CMakeFiles/Rush00.dir/NLO.cpp.o.requires
 CMakeFiles/Rush00.dir/requires: CMakeFiles/Rush00.dir/Window.cpp.o.requires
 CMakeFiles/Rush00.dir/requires: CMakeFiles/Rush00.dir/Spaceship.cpp.o.requires
+CMakeFiles/Rush00.dir/requires: CMakeFiles/Rush00.dir/Bullet.cpp.o.requires
+CMakeFiles/Rush00.dir/requires: CMakeFiles/Rush00.dir/Contorls.cpp.o.requires
 
 .PHONY : CMakeFiles/Rush00.dir/requires
 

@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.cpp">
+			<Option target="Rush00"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.hpp">
+			<Option target="Rush00"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/Contorls.cpp">
+			<Option target="Rush00"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/Contorls.hpp">
+			<Option target="Rush00"/>
+		</Unit>
 		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.cpp">
 			<Option target="Rush00"/>
 		</Unit>

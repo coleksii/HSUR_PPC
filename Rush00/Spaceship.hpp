@@ -2,21 +2,18 @@
 # define SPACESHIP_HPP
 
 #include "NLO.hpp"
-#include "ncurses.h"
+#include "Bullet.hpp"
 
 class Spaceship : public  NLO {
 public:
 	Spaceship(int, int, int, int);
 	~Spaceship();
 	void drawShip();
-	void checkControl(const int key);
-
-private:
 	void moveRight();
 	void moveLeft();
 	void moveDown();
 	void moveUp();
-	void attack();
+	Bullet* attack();
 };
 
 

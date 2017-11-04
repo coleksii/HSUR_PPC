@@ -1,7 +1,7 @@
-#include <iostream>
-#include <zconf.h>
 #include "Window.hpp"
 #include "Spaceship.hpp"
+#include "Game.hpp"
+#include "TListNode.hpp"
 
 void	scrColor()
 {
@@ -13,24 +13,22 @@ void	scrColor()
 	wbkgd(stdscr, COLOR_PAIR((3)));
 }
 
-int	ft_loop(Window win) {
+int		ft_loop(Window win) {
 	int loop = true;
-	int x = 0;
-	int y = 0;
 	Spaceship ship(20, 20, win.getW(), win.getH());
+	TListNode<Bullet> list();
+	Game game(ship, list);
 	while(loop)
 	{
 		loop = win.keyHook();
-		ship.checkControl(loop);
+		game.checkControl(loop);
 		ship.drawShip();
 		refresh();
-		x++;
-		y++;
 	}
 	return (1);
 }
 
-int main() {
+int		main() {
 
 	Window win;
 	ft_loop(win);

@@ -123,6 +123,60 @@ Rush00/fast:
 	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/build
 .PHONY : Rush00/fast
 
+Bullet.o: Bullet.cpp.o
+
+.PHONY : Bullet.o
+
+# target to build an object file
+Bullet.cpp.o:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Bullet.cpp.o
+.PHONY : Bullet.cpp.o
+
+Bullet.i: Bullet.cpp.i
+
+.PHONY : Bullet.i
+
+# target to preprocess a source file
+Bullet.cpp.i:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Bullet.cpp.i
+.PHONY : Bullet.cpp.i
+
+Bullet.s: Bullet.cpp.s
+
+.PHONY : Bullet.s
+
+# target to generate assembly for a file
+Bullet.cpp.s:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Bullet.cpp.s
+.PHONY : Bullet.cpp.s
+
+Contorls.o: Contorls.cpp.o
+
+.PHONY : Contorls.o
+
+# target to build an object file
+Contorls.cpp.o:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Contorls.cpp.o
+.PHONY : Contorls.cpp.o
+
+Contorls.i: Contorls.cpp.i
+
+.PHONY : Contorls.i
+
+# target to preprocess a source file
+Contorls.cpp.i:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Contorls.cpp.i
+.PHONY : Contorls.cpp.i
+
+Contorls.s: Contorls.cpp.s
+
+.PHONY : Contorls.s
+
+# target to generate assembly for a file
+Contorls.cpp.s:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Contorls.cpp.s
+.PHONY : Contorls.cpp.s
+
 NLO.o: NLO.cpp.o
 
 .PHONY : NLO.o
@@ -240,6 +294,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Rush00"
+	@echo "... Bullet.o"
+	@echo "... Bullet.i"
+	@echo "... Bullet.s"
+	@echo "... Contorls.o"
+	@echo "... Contorls.i"
+	@echo "... Contorls.s"
 	@echo "... NLO.o"
 	@echo "... NLO.i"
 	@echo "... NLO.s"

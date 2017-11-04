@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Bullet.cpp.o"
+  "/nfs/2016/a/akrotov/CLionProjects/Rush00/Contorls.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Contorls.cpp.o"
   "/nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/NLO.cpp.o"
   "/nfs/2016/a/akrotov/CLionProjects/Rush00/Spaceship.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Spaceship.cpp.o"
   "/nfs/2016/a/akrotov/CLionProjects/Rush00/Window.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Window.cpp.o"

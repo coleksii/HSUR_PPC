@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.cpp
+Bullet.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.hpp
+
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.hpp
+NLO.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
+
 /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.cpp
 NLO.hpp
 /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
 
 /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
+ncurses.h
+/nfs/2016/a/akrotov/CLionProjects/Rush00/ncurses.h
 
 /nfs/2016/a/akrotov/CLionProjects/Rush00/Spaceship.cpp
 Spaceship.hpp
@@ -33,10 +43,6 @@ zconf.h
 -
 
 /nfs/2016/a/akrotov/CLionProjects/Rush00/main.cpp
-iostream
--
-zconf.h
--
 Window.hpp
 /nfs/2016/a/akrotov/CLionProjects/Rush00/Window.hpp
 Spaceship.hpp

@@ -14,19 +14,6 @@ void	Spaceship::drawShip() {
 	mvprintw(posY, posX - 3, "^^^^^");
 }
 
-void	Spaceship::checkControl(const int key) {
-	if (key == 261)
-		moveRight();
-	else if (key == 260)
-		moveLeft();
-	else if (key == 259)
-		moveUp();
-	if (key == 258)
-		moveDown();
-	if (key != -1)
-		werase(stdscr);
-}
-
 void Spaceship::moveRight() {
 	if (posX + 2 + 2 < this->maxX)
 	this->posX += 2;
@@ -43,10 +30,17 @@ void Spaceship::moveUp() {
 		this->posY -= 1;
 }
 
-
 void Spaceship::moveDown() {
 	if (posY + 1 < this->maxY) {
 //		mvprintw(0, 0, "%d", posY);
 		this->posY += 1;
 	}
 }
+
+Bullet *Spaceship::attack() {
+	Bullet *ret = new Bullet(posY, posX, maxY, maxX, -1);
+	return (ret);
+}
+
+
+

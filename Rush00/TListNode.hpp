@@ -10,9 +10,10 @@ class TListNode {
 public:
 	TListNode(T);
 	~TListNode();
+	void	addData(T)
 protected:
 	T *prev;
 	T *next;
-	T data;
+	T *data;
 };
 #endif
