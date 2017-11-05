@@ -9,7 +9,7 @@ class TListNode {
 public:
 	TListNode();
 	~TListNode();
-	TListNode<T> *remove();
+//	T remove();
 	void setPrev(TListNode<T> *prev);
 	void setNext(TListNode<T> *next);
 	void setData(T data);
@@ -28,20 +28,20 @@ TListNode<T>::TListNode() : prev(nullptr), next(nullptr), data(nullptr) {}
 template  <class T>
 TListNode<T>::~TListNode() {}
 
-template  <class T>
-TListNode<T> *TListNode<T>::remove()
-{
- 	if (prev != nullptr && next != nullptr) {
-		prev->next = next;
-		next->prev = prev;
-	}
-	else if (prev != nullptr) {
-		prev->next = nullptr;
-	}else if (next != nullptr) {
-		next->prev = nullptr;
-	}
-	return this;
-}
+//template  <class T>
+//T TListNode<T>::remove()
+//{
+// 	if (prev != nullptr && next != nullptr) {
+//		prev->next = next;
+//		next->prev = prev;
+//	}
+//	else if (prev != nullptr) {
+//		prev->next = nullptr;
+//	}else if (next != nullptr) {
+//		next->prev = nullptr;
+//	}
+//	return data;
+//}
 
 template <class T>
 void TListNode<T>::setPrev(TListNode<T> *prev) {

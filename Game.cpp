@@ -14,7 +14,7 @@ void	Game::checkControl(const int key) {
 	if (key == 258)
 		ship->moveDown();
 	if (key == 32)
-		bullets->add(ship->attack());
+		bullets->addNode(ship->attack());
 	if (key != -1)
 		werase(stdscr);
 }
@@ -22,17 +22,17 @@ void	Game::checkControl(const int key) {
 void	Game::doBullets() {
 	TListNode<Bullet*> *ptr;
 	ptr = bullets->getStart();
-//	TListNode<Bullet*> *free;
+	Bullet *free;
+	erase();
 	while (ptr != nullptr)
 	{
-		if (ptr->getData()->doAction() == false)
+		if (ptr->getData() != nullptr && ptr->getData()->doAction() == false)
 		{
-//			free = ptr->remove();
-//			delete(free->getData());
+			free = bullets->removeNode(ptr);
+			delete(free);
+			mvprintw(0, 0, "Awdawdawd");refresh();
 //			delete(free);
 //			ptr->getPrev()->setNext(nullptr);
-//			delete(ptr);
-//			break ;
 		}
 		ptr = ptr->getNext();
 	}

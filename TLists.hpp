@@ -8,7 +8,8 @@ class	TList {
 public:
 	TList();
 	~TList();
-	void add(T data);
+	void addNode(T data);
+	T removeNode(TListNode<Bullet *> *ptr);
 	TListNode<T> *getStart() const;
 	void setStart(TListNode<T> *start);
 	TListNode<T> *getTail() const;
@@ -24,7 +25,7 @@ template <class T>
 TList<T>::~TList() {}
 
 template <class T>
-void TList<T>::add(T data) {
+void TList<T>::addNode(T data) {
 	if (data != nullptr)
 	{
 		if (start == nullptr) {
@@ -41,6 +42,22 @@ void TList<T>::add(T data) {
 			tail = tmp;
 		}
 	}
+}
+
+template <class T>
+T TList<T>::removeNode(TListNode<Bullet *> *ptr) {
+	if (ptr->getPrev() != nullptr && ptr->getNext() != nullptr) {
+		ptr->getPrev()->setNext(ptr->getNext());
+		ptr->getNext()->setPrev(ptr->getPrev());
+	}
+	else if (ptr->getPrev() != nullptr) {
+		ptr->getPrev()->setNext(nullptr);
+		start = ptr->getNext();
+	}else if (ptr->getNext() != nullptr) {
+		ptr->getNext()->setPrev(nullptr);
+		tail = ptr->getPrev();
+	}
+	return ptr->getData();
 }
 
 template <class T>

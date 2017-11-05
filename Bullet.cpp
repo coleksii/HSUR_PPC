@@ -1,13 +1,12 @@
 #include "Bullet.hpp"
 
-Bullet::Bullet(int y, int x, int mY, int mX, int dir) : NLO(y, x, mY, mX), direction(dir){
+Bullet::Bullet(int y, int x, int mY, int mX, int dir) : NLO(x - 1, y, mX, mY), direction(dir){
 }
 
 Bullet::~Bullet() {}
 
 bool	Bullet::doAction(){
 	bool ret = false;
-	werase(stdscr);
 	ret = moveBullet();
 	drawBullet();
 	return ret;
@@ -18,11 +17,12 @@ bool	Bullet::moveBullet() {
 		this->posY += direction;
 		return true;
 	}
+	this->posY = -1;
 	return false;
 }
 
 void	Bullet::drawBullet() {
-	mvprintw(posY , posX, "*");
+	mvprintw(posY , posX, "^");
 }
 
 
