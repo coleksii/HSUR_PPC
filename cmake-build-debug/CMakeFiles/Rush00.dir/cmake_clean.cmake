@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Rush00.dir/Bullet.cpp.o"
   "CMakeFiles/Rush00.dir/Game.cpp.o"
   "CMakeFiles/Rush00.dir/Enemy.cpp.o"
+  "CMakeFiles/Rush00.dir/Fps.cpp.o"
   "Rush00.pdb"
   "Rush00"
 )

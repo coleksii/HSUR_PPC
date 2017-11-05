@@ -37,5 +37,5 @@ bool	Enemy::moveEnemy() {
 }
 
 void	Enemy::drawEnemy() {
-	mvprintw(posY , posX, "^");
+	mvprintw(posY , posX, "#");
 }

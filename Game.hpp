@@ -6,6 +6,7 @@
 #include "TLists.hpp"
 #include "TListNode.hpp"
 #include "Enemy.hpp"
+#include "Fps.hpp"
 
 class	Game {
 public:
@@ -13,10 +14,17 @@ public:
 	~Game();
 	void checkControl(const int key);
 	void doBullets();
+	void doEnemy();
+	void checkFps();
+	void bornEneme();
+	void gameAll(int loop);
 protected:
 	Spaceship		*ship;
 	TList<Bullet*>	*bullets;
-	Enemy			enemy;
+	TList<Enemy*>	enemyList;
+	Fps 			fps;
+private:
+	int				bornEnemyCount;
 };
 
 

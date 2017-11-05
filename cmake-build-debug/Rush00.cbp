@@ -96,6 +96,12 @@
 		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/Enemy.hpp">
 			<Option target="Rush00"/>
 		</Unit>
+		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/Fps.cpp">
+			<Option target="Rush00"/>
+		</Unit>
+		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/Fps.hpp">
+			<Option target="Rush00"/>
+		</Unit>
 		<Unit filename="/nfs/2016/a/akrotov/CLionProjects/Rush00/Game.cpp">
 			<Option target="Rush00"/>
 		</Unit>

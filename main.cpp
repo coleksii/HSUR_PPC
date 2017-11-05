@@ -19,11 +19,10 @@ int		ft_loop(Window win) {
 	int loop = true;
 	Spaceship ship(100, 50, win.getW(), win.getH());
 	TList<Bullet*>	bulletList;
-	TList<Enemy*>	enemyList;
 	Game game(&ship, &bulletList);
-
 	while(loop)
 	{
+		game.checkFps();
 		loop = win.keyHook();
 		game.checkControl(loop);
 		game.doBullets();

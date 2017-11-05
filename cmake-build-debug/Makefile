@@ -177,6 +177,33 @@ Enemy.cpp.s:
 	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Enemy.cpp.s
 .PHONY : Enemy.cpp.s
 
+Fps.o: Fps.cpp.o
+
+.PHONY : Fps.o
+
+# target to build an object file
+Fps.cpp.o:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Fps.cpp.o
+.PHONY : Fps.cpp.o
+
+Fps.i: Fps.cpp.i
+
+.PHONY : Fps.i
+
+# target to preprocess a source file
+Fps.cpp.i:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Fps.cpp.i
+.PHONY : Fps.cpp.i
+
+Fps.s: Fps.cpp.s
+
+.PHONY : Fps.s
+
+# target to generate assembly for a file
+Fps.cpp.s:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Fps.cpp.s
+.PHONY : Fps.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -327,6 +354,9 @@ help:
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"
+	@echo "... Fps.o"
+	@echo "... Fps.i"
+	@echo "... Fps.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"

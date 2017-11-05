@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Bullet.cpp.o"
   "/nfs/2016/a/akrotov/CLionProjects/Rush00/Enemy.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Enemy.cpp.o"
+  "/nfs/2016/a/akrotov/CLionProjects/Rush00/Fps.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Fps.cpp.o"
   "/nfs/2016/a/akrotov/CLionProjects/Rush00/Game.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Game.cpp.o"
   "/nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/NLO.cpp.o"
   "/nfs/2016/a/akrotov/CLionProjects/Rush00/Spaceship.cpp" "/nfs/2016/a/akrotov/CLionProjects/Rush00/cmake-build-debug/CMakeFiles/Rush00.dir/Spaceship.cpp.o"

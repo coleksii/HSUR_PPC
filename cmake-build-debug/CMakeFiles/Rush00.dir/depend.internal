@@ -5,8 +5,17 @@ CMakeFiles/Rush00.dir/Bullet.cpp.o
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.cpp
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.hpp
  /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
+CMakeFiles/Rush00.dir/Enemy.cpp.o
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/Enemy.cpp
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/Enemy.hpp
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
+CMakeFiles/Rush00.dir/Fps.cpp.o
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/Fps.cpp
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/Fps.hpp
 CMakeFiles/Rush00.dir/Game.cpp.o
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.hpp
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/Enemy.hpp
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/Fps.hpp
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Game.cpp
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Game.hpp
  /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
@@ -26,6 +35,8 @@ CMakeFiles/Rush00.dir/Window.cpp.o
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Window.hpp
 CMakeFiles/Rush00.dir/main.cpp.o
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.hpp
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/Enemy.hpp
+ /nfs/2016/a/akrotov/CLionProjects/Rush00/Fps.hpp
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Game.hpp
  /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
  /nfs/2016/a/akrotov/CLionProjects/Rush00/Spaceship.hpp
