@@ -1,3 +1,4 @@
+#include <zconf.h>
 #include "Game.hpp"
 
 Game::Game(Spaceship *ship, TList<Bullet*> *bullets) : ship(ship), bullets(bullets) {}
@@ -29,10 +30,7 @@ void	Game::doBullets() {
 		if (ptr->getData() != nullptr && ptr->getData()->doAction() == false)
 		{
 			free = bullets->removeNode(ptr);
-			delete(free);
-			mvprintw(0, 0, "Awdawdawd");refresh();
-//			delete(free);
-//			ptr->getPrev()->setNext(nullptr);
+			//	delete(free);
 		}
 		ptr = ptr->getNext();
 	}

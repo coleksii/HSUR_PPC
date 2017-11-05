@@ -6,7 +6,7 @@ Bullet::Bullet(int y, int x, int mY, int mX, int dir) : NLO(x - 1, y, mX, mY), d
 Bullet::~Bullet() {}
 
 bool	Bullet::doAction(){
-	bool ret = false;
+	bool ret;
 	ret = moveBullet();
 	drawBullet();
 	return ret;

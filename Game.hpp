@@ -5,6 +5,7 @@
 #include "Spaceship.hpp"
 #include "TLists.hpp"
 #include "TListNode.hpp"
+#include "Enemy.hpp"
 
 class	Game {
 public:
@@ -15,6 +16,7 @@ public:
 protected:
 	Spaceship		*ship;
 	TList<Bullet*>	*bullets;
+	Enemy			enemy;
 };
 
 

@@ -18,8 +18,9 @@ void	scrColor()
 int		ft_loop(Window win) {
 	int loop = true;
 	Spaceship ship(100, 50, win.getW(), win.getH());
-	TList<Bullet*> list;
-	Game game(&ship, &list);
+	TList<Bullet*>	bulletList;
+	TList<Enemy*>	enemyList;
+	Game game(&ship, &bulletList);
 
 	while(loop)
 	{

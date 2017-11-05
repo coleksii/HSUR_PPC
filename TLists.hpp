@@ -30,6 +30,8 @@ void TList<T>::addNode(T data) {
 	{
 		if (start == nullptr) {
 			start =  new TListNode<T>;
+			start->setPrev(nullptr);
+			start->setNext(nullptr);
 			start->setData(data);
 			tail = start;
 			tail->setPrev(start);
@@ -53,9 +55,12 @@ T TList<T>::removeNode(TListNode<Bullet *> *ptr) {
 	else if (ptr->getPrev() != nullptr) {
 		ptr->getPrev()->setNext(nullptr);
 		start = ptr->getNext();
+		if (start != nullptr)
+		start->setPrev(nullptr);
 	}else if (ptr->getNext() != nullptr) {
 		ptr->getNext()->setPrev(nullptr);
 		tail = ptr->getPrev();
+		tail->setNext(nullptr);
 	}
 	return ptr->getData();
 }
