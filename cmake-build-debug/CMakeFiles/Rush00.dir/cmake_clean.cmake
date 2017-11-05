@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Rush00.dir/Window.cpp.o"
   "CMakeFiles/Rush00.dir/Spaceship.cpp.o"
   "CMakeFiles/Rush00.dir/Bullet.cpp.o"
-  "CMakeFiles/Rush00.dir/Contorls.cpp.o"
+  "CMakeFiles/Rush00.dir/Game.cpp.o"
   "Rush00.pdb"
   "Rush00"
 )

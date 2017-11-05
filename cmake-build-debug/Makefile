@@ -150,32 +150,32 @@ Bullet.cpp.s:
 	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Bullet.cpp.s
 .PHONY : Bullet.cpp.s
 
-Contorls.o: Contorls.cpp.o
+Game.o: Game.cpp.o
 
-.PHONY : Contorls.o
+.PHONY : Game.o
 
 # target to build an object file
-Contorls.cpp.o:
-	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Contorls.cpp.o
-.PHONY : Contorls.cpp.o
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Game.cpp.o
+.PHONY : Game.cpp.o
 
-Contorls.i: Contorls.cpp.i
+Game.i: Game.cpp.i
 
-.PHONY : Contorls.i
+.PHONY : Game.i
 
 # target to preprocess a source file
-Contorls.cpp.i:
-	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Contorls.cpp.i
-.PHONY : Contorls.cpp.i
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Game.cpp.i
+.PHONY : Game.cpp.i
 
-Contorls.s: Contorls.cpp.s
+Game.s: Game.cpp.s
 
-.PHONY : Contorls.s
+.PHONY : Game.s
 
 # target to generate assembly for a file
-Contorls.cpp.s:
-	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Contorls.cpp.s
-.PHONY : Contorls.cpp.s
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/Rush00.dir/build.make CMakeFiles/Rush00.dir/Game.cpp.s
+.PHONY : Game.cpp.s
 
 NLO.o: NLO.cpp.o
 
@@ -297,9 +297,9 @@ help:
 	@echo "... Bullet.o"
 	@echo "... Bullet.i"
 	@echo "... Bullet.s"
-	@echo "... Contorls.o"
-	@echo "... Contorls.i"
-	@echo "... Contorls.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
 	@echo "... NLO.o"
 	@echo "... NLO.i"
 	@echo "... NLO.s"

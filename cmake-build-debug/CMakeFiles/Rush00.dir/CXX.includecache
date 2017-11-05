@@ -14,6 +14,20 @@ Bullet.hpp
 NLO.hpp
 /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
 
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Game.cpp
+Game.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Game.hpp
+
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Game.hpp
+Bullet.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.hpp
+Spaceship.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Spaceship.hpp
+TLists.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/TLists.hpp
+TListNode.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/TListNode.hpp
+
 /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.cpp
 NLO.hpp
 /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
@@ -29,8 +43,18 @@ Spaceship.hpp
 /nfs/2016/a/akrotov/CLionProjects/Rush00/Spaceship.hpp
 NLO.hpp
 /nfs/2016/a/akrotov/CLionProjects/Rush00/NLO.hpp
-ncurses.h
-/nfs/2016/a/akrotov/CLionProjects/Rush00/ncurses.h
+Bullet.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Bullet.hpp
+
+/nfs/2016/a/akrotov/CLionProjects/Rush00/TListNode.hpp
+iostream
+-
+iomanip
+-
+
+/nfs/2016/a/akrotov/CLionProjects/Rush00/TLists.hpp
+TListNode.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/TListNode.hpp
 
 /nfs/2016/a/akrotov/CLionProjects/Rush00/Window.cpp
 Window.hpp
@@ -47,4 +71,12 @@ Window.hpp
 /nfs/2016/a/akrotov/CLionProjects/Rush00/Window.hpp
 Spaceship.hpp
 /nfs/2016/a/akrotov/CLionProjects/Rush00/Spaceship.hpp
+Game.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/Game.hpp
+TListNode.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/TListNode.hpp
+TLists.hpp
+/nfs/2016/a/akrotov/CLionProjects/Rush00/TLists.hpp
+stdio.h
+-
 

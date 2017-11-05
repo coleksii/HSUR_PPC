@@ -2,6 +2,8 @@
 #include "Spaceship.hpp"
 #include "Game.hpp"
 #include "TListNode.hpp"
+#include "TLists.hpp"
+#include <stdio.h>
 
 void	scrColor()
 {
@@ -16,14 +18,17 @@ void	scrColor()
 int		ft_loop(Window win) {
 	int loop = true;
 	Spaceship ship(20, 20, win.getW(), win.getH());
-	TListNode<Bullet> list();
-	Game game(ship, list);
+	TList<Bullet*> list;
+	Game game(&ship, &list);
+
 	while(loop)
 	{
 		loop = win.keyHook();
 		game.checkControl(loop);
+		game.doBullets();
 		ship.drawShip();
 		refresh();
+		usleep(19999);
 	}
 	return (1);
 }

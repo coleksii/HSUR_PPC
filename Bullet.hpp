@@ -7,9 +7,10 @@ class Bullet : public NLO {
 public:
 	Bullet(int y, int x,int mY, int mX, int dir);
 	~Bullet();
-	void moveBullet();
-	void drawBullet();
+	bool doAction();
 protected:
+	bool moveBullet();
+	void drawBullet();
 	int direction;
 };
 

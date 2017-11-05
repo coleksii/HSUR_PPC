@@ -5,9 +5,18 @@ CMakeFiles/Rush00.dir/Bullet.cpp.o: ../Bullet.cpp
 CMakeFiles/Rush00.dir/Bullet.cpp.o: ../Bullet.hpp
 CMakeFiles/Rush00.dir/Bullet.cpp.o: ../NLO.hpp
 
+CMakeFiles/Rush00.dir/Game.cpp.o: ../Bullet.hpp
+CMakeFiles/Rush00.dir/Game.cpp.o: ../Game.cpp
+CMakeFiles/Rush00.dir/Game.cpp.o: ../Game.hpp
+CMakeFiles/Rush00.dir/Game.cpp.o: ../NLO.hpp
+CMakeFiles/Rush00.dir/Game.cpp.o: ../Spaceship.hpp
+CMakeFiles/Rush00.dir/Game.cpp.o: ../TListNode.hpp
+CMakeFiles/Rush00.dir/Game.cpp.o: ../TLists.hpp
+
 CMakeFiles/Rush00.dir/NLO.cpp.o: ../NLO.cpp
 CMakeFiles/Rush00.dir/NLO.cpp.o: ../NLO.hpp
 
+CMakeFiles/Rush00.dir/Spaceship.cpp.o: ../Bullet.hpp
 CMakeFiles/Rush00.dir/Spaceship.cpp.o: ../NLO.hpp
 CMakeFiles/Rush00.dir/Spaceship.cpp.o: ../Spaceship.cpp
 CMakeFiles/Rush00.dir/Spaceship.cpp.o: ../Spaceship.hpp
@@ -15,8 +24,12 @@ CMakeFiles/Rush00.dir/Spaceship.cpp.o: ../Spaceship.hpp
 CMakeFiles/Rush00.dir/Window.cpp.o: ../Window.cpp
 CMakeFiles/Rush00.dir/Window.cpp.o: ../Window.hpp
 
+CMakeFiles/Rush00.dir/main.cpp.o: ../Bullet.hpp
+CMakeFiles/Rush00.dir/main.cpp.o: ../Game.hpp
 CMakeFiles/Rush00.dir/main.cpp.o: ../NLO.hpp
 CMakeFiles/Rush00.dir/main.cpp.o: ../Spaceship.hpp
+CMakeFiles/Rush00.dir/main.cpp.o: ../TListNode.hpp
+CMakeFiles/Rush00.dir/main.cpp.o: ../TLists.hpp
 CMakeFiles/Rush00.dir/main.cpp.o: ../Window.hpp
 CMakeFiles/Rush00.dir/main.cpp.o: ../main.cpp
 
