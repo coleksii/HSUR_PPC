@@ -6,3 +6,11 @@ Its game like space runner.
 
 ## You need:
 ncurses library
+
+## How to build and ru
+
+in directory execute the commands: 
+
+make
+
+./ft_retro

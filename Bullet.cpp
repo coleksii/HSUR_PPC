@@ -22,7 +22,22 @@ bool	Bullet::moveBullet() {
 }
 
 void	Bullet::drawBullet() {
+	attron(COLOR_PAIR(4));
 	mvprintw(posY , posX, "^");
+	attrset(A_NORMAL);
+}
+
+Bullet &Bullet::operator=(Bullet const & src) {
+	this->direction = src.direction;
+	this->posX = src.posX;
+	this->posY = src.posY;
+	this->maxX = src.maxX;
+	this->maxY = src.maxY;
+	return (*this);
+}
+
+Bullet::Bullet(Bullet const &src) {
+	*this = src;
 }
 
 

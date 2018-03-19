@@ -9,7 +9,7 @@ public:
 	TList();
 	~TList();
 	void addNode(T data);
-	T removeNode(TListNode<Bullet *> *ptr);
+	T removeNode(TListNode<T> *ptr);
 	TListNode<T> *getStart() const;
 	void setStart(TListNode<T> *start);
 	TListNode<T> *getTail() const;
@@ -47,7 +47,7 @@ void TList<T>::addNode(T data) {
 }
 
 template <class T>
-T TList<T>::removeNode(TListNode<Bullet *> *ptr) {
+T TList<T>::removeNode(TListNode<T> *ptr) {
 	if (ptr->getPrev() != nullptr && ptr->getNext() != nullptr) {
 		ptr->getPrev()->setNext(ptr->getNext());
 		ptr->getNext()->setPrev(ptr->getPrev());

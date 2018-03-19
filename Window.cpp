@@ -16,6 +16,17 @@ Window::~Window() {
 
 }
 
+Window &Window::operator=(Window const & src) {
+	this->w = src.w;
+	this->h = src.h;
+	this->key = src.key;
+	return (*this);
+}
+
+Window::Window(Window const &src) {
+	*this = src;
+}
+
 int	Window::keyHook() {
 	key = getch();
 	if (key == 27)

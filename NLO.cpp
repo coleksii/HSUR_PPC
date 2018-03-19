@@ -4,6 +4,21 @@ NLO::NLO(int x, int y, int maxX,int maxY) : posX(x), posY(y), maxX(maxX), maxY(m
 
 NLO::~NLO() {}
 
+NLO::NLO() : posX(0), posY(0), maxX(0), maxY(0) {}
+
+NLO &NLO::operator=(NLO const & src) {
+	this->posX = src.posX;
+	this->posY = src.posY;
+	this->maxX = src.maxX;
+	this->maxY = src.maxY;
+	return (*this);
+}
+
+NLO::NLO(NLO const &src) {
+	*this = src;
+}
+
+
 int NLO::getPosX() const {
 	return posX;
 }
@@ -35,3 +50,4 @@ int NLO::getMaxY() const {
 void NLO::setMaxY(int maxY) {
 	NLO::maxY = maxY;
 }
+

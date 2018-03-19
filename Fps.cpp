@@ -5,6 +5,18 @@ Fps::Fps() : current(0), old(0), delta(0), fps(0) {}
 
 Fps::~Fps() {}
 
+Fps &Fps::operator=(Fps const & src) {
+	this->current = src.current;
+	this->old = src.old;
+	this->delta = src.delta;
+	this->fps = src.fps;
+	return (*this);
+}
+
+Fps::Fps(Fps const &src) {
+	*this = src;
+}
+
 void	Fps::smooth_delta()
 {
 	current = (current * SMOOTH) + (old) * (1.0 - SMOOTH);
@@ -18,6 +30,8 @@ void	Fps::calcFps() {
 	fps = (int)(1 / delta);
 	if (fps > 100)
 		fps = 100;
+	mvprintw(0, 0, "FPS: %d", fps);refresh();
+
 }
 
 bool		Fps::counter(int *storage, int limit)

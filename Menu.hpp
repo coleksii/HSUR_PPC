@@ -19,6 +19,8 @@ public:
 	int startMenu();
 	Menu();
 	~Menu();
+	Menu & operator=(Menu const&);
+	Menu(Menu const &);
 	void 	drawMenu();
 	void 	draw(int menu, int w, int h);
 	void	clean(int me, int w, int h);

@@ -8,7 +8,8 @@ class Window {
 public:
 	Window();
 	~Window();
-
+	Window & operator=(Window const&);
+	Window(Window const &);
 	int	keyHook();
 
 ///SETTER GETTER

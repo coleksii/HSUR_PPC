@@ -2,12 +2,16 @@
 #define FPS_HPP
 
 # define SMOOTH 0.1
-# include <time.h>
+# include <ctime>
+#include "ncurses.h"
+
 
 class Fps {
 public:
 	Fps();
 	~Fps();
+	Fps & operator=(Fps const&);
+	Fps(Fps const &);
 	void calcFps();
 	bool counter(int *storage, int limit);
 	double getCurrent() const;

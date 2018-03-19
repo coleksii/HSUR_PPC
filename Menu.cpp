@@ -18,6 +18,17 @@ Menu::Menu(){
 Menu::~Menu() {
 }
 
+Menu &Menu::operator=(Menu const & src) {
+	this->numberMenu = src.numberMenu;
+	this->w = src.w;
+	this->h = src.h;
+	return (*this);
+}
+
+Menu::Menu(Menu const &src) {
+	*this = src;
+}
+
 int Menu::startMenu() {
 	int selMen;
 	drawMenu();
